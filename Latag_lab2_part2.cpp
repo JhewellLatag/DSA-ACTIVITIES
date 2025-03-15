@@ -146,7 +146,7 @@ string deleteAtEnd(Node *head){
 
 int main(){
     Node *head = createNode("Sanctuary by Joli");
-    head = insertAtEnd("Sing by Dionela", head);
+    head = insertAtEnd("Sining by Dionela", head);
     insertAtEnd("Marilag by Dionela", head);
     insertAtEnd("Binibirocha by Andrew E", head);
     
@@ -156,13 +156,13 @@ int main(){
     head = insertAtBeginning("Walang Alam by Hev Avi", head);
 
 
-    string result = insertAfter("Gusto by Zack Tabudlo", "Paninindigan kita", head);
+    string result = insertAfter("Sining by Dionela", "Banyo Queen by Andrew E", head);
     cout << result << endl;
 
-    string result2 = insertAfter("Dilaw by Maki", "TAKE ALL THE LOVE", head);
+    string result2 = insertAfter("Marilag by Dionela", "Araw-Araw by Ben&Ben", head);
     cout << result2 << endl;
 
-    string result3 = insertAfter("Sining by Dionela", "Marilag", head);
+    string result3 = insertAfter("Binibirocha by Andrew E", "My Day by Hellmerry", head);
     cout << result3 << endl;
 
     string END = deleteAtEnd(head);
